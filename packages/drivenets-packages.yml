@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/drivenets/ansible-collection-dnos
+notes: >-
+  DriveNets is a network-operating-system vendor; device management is exposed via
+  NETCONF/gNMI over OpenConfig/DriveNets YANG models rather than a public REST API.
+  The first-party automation client is the drivenets.dnos Ansible collection. It is
+  distributed from GitHub (not published to Ansible Galaxy at time of probe). The
+  design-system monorepo (@drivenets/design-system-monorepo) is marked private and is
+  not a public package.
+packages:
+- language: ansible
+  registry: github
+  name: drivenets.dnos
+  url: https://github.com/drivenets/ansible-collection-dnos
+  install: ansible-galaxy collection install git+https://github.com/drivenets/ansible-collection-dnos.git
+  official: true
+  description: >-
+    Ansible Network Collection for automating management of DriveNets DNOS network
+    appliances (tested against DNOS 25.2.x). Depends on ansible.netcommon; drives
+    devices over NETCONF.

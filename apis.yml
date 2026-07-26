@@ -1,9 +1,28 @@
 aid: drivenets
 name: DriveNets
-description: 'DriveNets is a company surfaced as a portfolio company of bessemer-venture-partners, d1-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  DriveNets is a networking software company that applies the disaggregated cloud model
+  to telco-grade and AI networking. Its DriveNets Network Cloud runs DNOS, a cloud-native
+  distributed network operating system, across shared white-box hardware to serve core,
+  aggregation, access, peering, DCI, and AI-fabric use cases. The Network Cloud AI fabric
+  delivers Ethernet-based GPU-cluster interconnect positioned as an alternative to
+  InfiniBand. Founded in 2015, DriveNets powers disaggregated backbones for operators
+  including AT&T, Comcast, Orange, and KDDI. Device management is exposed programmatically
+  via NETCONF/gNMI over OpenConfig and DriveNets YANG models, with a first-party
+  drivenets.dnos Ansible collection for automation; there is no public REST API.
 url: https://raw.githubusercontent.com/api-evangelist/drivenets/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/16275587?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Ml
+- Networking
+- Network Operating System
+- Network Automation
+- Disaggregated Networking
+- Cloud Networking
+- AI Fabric
+- Telco
+- NETCONF
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.drivenets.com/
+- type: Blog
+  url: https://drivenets.com/blog/
+- type: Documentation
+  url: https://drivenets.com/resources/
+- type: Support
+  url: https://drivenets.com/contact-us/
+- type: GitHubOrganization
+  url: https://github.com/drivenets
+- type: TermsOfService
+  url: https://drivenets.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://drivenets.com/privacy-policy/
+- type: Packages
+  url: packages/drivenets-packages.yml
+- type: SDKs
+  url: packages/drivenets-packages.yml
+- type: DomainSecurity
+  url: security/drivenets-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
